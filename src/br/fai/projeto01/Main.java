@@ -15,7 +15,17 @@ public class Main {
 		System.out.println("A idade é  de  "+idade+ " anos.");
 		idade+=5;
 		idade*=2;
-		System.out.println("resultado " +idade);
+		System.out.println("resultado1 " +idade);
+		idade-=5;
+		System.out.println("resultado2 "+idade);
+		
+		if (idade>20) {
+			
+			System.out.println("A idade é maior que 20 ");
+		}else {
+			System.out.println("A idade é menor que 20");
+			
+		}
 		
 	 }
 }

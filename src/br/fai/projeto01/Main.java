@@ -12,7 +12,10 @@ public class Main {
 	 private void start()
 	 {
 		int idade = 15;
-		System.out.println("A idade é  de "+idade+ "anos.");
+		System.out.println("A idade é  de  "+idade+ " anos.");
+		idade+=5;
+		idade*=2;
+		System.out.println("resultado " +idade);
 		
 	 }
 }
